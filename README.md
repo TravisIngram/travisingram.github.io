@@ -1,4 +1,4 @@
-## [travisingram.github.io](travisingram.github.io)
+## travisingram.github.io
 
 ### Dev Journal
 
