@@ -20,4 +20,8 @@ Creating content based on ones current learning objective can be a useful strate
 
 ### Current Location
 
-Self assessment is a key factor in the learning process.  Being able to accurately gauge your current level of understanding as well as identify any gaps will make the time you spend learning that much more efficient.  In most fields of study there is an inherent hierarchy that can be systematically worked through to gain understanding.  There are numerous methods one can take when moving through the material.  The efficacy of these methods will vary by individual based on factors such as their learning style and motivation.
+Self assessment is a key factor in the learning process.  Being able to accurately gage your current level of understanding as well as identify any gaps will make the time you spend learning that much more efficient.  In most fields of study there is an inherent hierarchy that can be systematically worked through to gain understanding.  There are numerous methods one can take when moving through the material.  The efficacy of these methods will vary by individual based on factors such as their learning style and motivation.
+
+### Challenges
+
+Deciding that you're stuck and then doing something to get unstuck is a challenge.  I've found the longer that I work on a problem without making any meaningful or recognizable progress, the more discouraged I become.  Breaking out of this pattern as quickly as I see it emerge is key to staying motivated and moving forward.
