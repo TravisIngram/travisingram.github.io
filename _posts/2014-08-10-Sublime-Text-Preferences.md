@@ -74,12 +74,14 @@ I've included a few basic settings below.  They are pretty self explanatory.  If
 
 Sublime Text allows you to maintain settings on a language by language basis.  This allows you to ensure that your `Python` files have 4 spaces of indention and your `Ruby` or `YAML` files, only 2.
 
-In order to modify the syntax specific settings, either create and save new file with the appropriate file extension, or open an existing one.  With the file open and active, select the following option;
+In order to modify the syntax specific settings, either create and save a new file with the appropriate extension, `.rb` for example, or open an existing one.
+
+With the file open and active, select the following option:
 
 ![ST Pref Selection](http://cl.ly/image/1X052V3n3q0B/Sublime_Text-Pref.jpg "Sublime Text Pref")
 
 ```
-Sublime Text => Preferences => Settings - More => Syntax Specific - User
+Sublime Text => Preferences => Settings-More => Syntax Specific-User
 ```
 Sublime Text will open a new, blank document.  As before, you’ll need to type out or paste in the settings you’d like to have.  I typically add;
 
