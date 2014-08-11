@@ -12,7 +12,7 @@ The site [Pair Program with Me](http://www.pairprogramwith.me) is another great 
 
 If you have other tools you’ve used and find useful, please don't hesitate to share them!
 
-===
+---
 
 ### Google Hangouts
 
@@ -43,6 +43,8 @@ Here are a few basic best practices to keep in mind when interacting with others
 * Anytime you need convenient access to audio AND video AND screen sharing AND collaborative text editing.
   * If video isn't required, there might be better options, like one of the services listed below.
 
+---
+
 ### ScreenHero
 
 **ScreenHero has officially launched and is now a paid service.  It costs $10/mo. This makes me a little sad as I think that's a bit prohibitive for folks who just want to pair and aren't using it as a production tool.**
@@ -60,13 +62,19 @@ In a typical session, you might be working on a file in Sublime Text or in the T
 #### Use case:
 * A great tool if you don't require video and don't mind hosting or connecting to another user.
 
+---
+
 ### Floobits
 
-[Floobits](https://floobits.com) is a collaborative text editor and screen sharing solution. It’s primarily intended for folks who need to remotely pair program but has a number of features that make it appealing for small groups as well.  See the link below for a full description.
+[Floobits](https://floobits.com) is a collaborative text editor and screen sharing solution. It’s primarily intended for folks who need to remotely pair program but has a number of features that make it appealing for small groups as well.
+
+I hope to post a rather extensive overview / tutorial that I wrote a while back.  I need to modify some of the screenshots first, redact some personal information.  As soon as I finish, I'll post it at the link below.
 
 **Resources**
 
 [**Working with Floobits locally**](https://travisingram.github.io/2014/08/10/2014-08-10-Floobits-Locally)
+
+---
 
 ### Stypil
 
@@ -82,6 +90,8 @@ Here’s a short [tutorial](http://vimeo.com/76870082) for basic Stypi use.
 * Since it doesn't have integrated voice chat, you'll need to use another application for that.  But it's a good choice if, for whatever reason, you don’t want to share your own environment or make a direct connection to someone else machine.
 * For those with an account, saving files and being able to continue working on an exercise is pretty convenient.
 
+---
+
 ### CloudApp
 
 [CloudApp](http://www.getcloudapp.com) is an application that allows you to quickly upload and share screenshots.  It can be quite useful when debugging and you want to share an error message.
@@ -90,6 +100,8 @@ Here’s a short [tutorial](http://vimeo.com/76870082) for basic Stypi use.
 * Any situation where you need to quickly share an individual screenshot.
 * If you upgrade your account you can also store and share video files.
 
+---
+
 ### Hastebin
 
 [Hastebin](http://hastebin.com/about.md) is a simple site that allows you to quickly save and share code snippets.  It even has a [gem](https://github.com/seejohnrun/haste-client) that, once installed, will allow you to use it from the command line.
@@ -97,12 +109,16 @@ Here’s a short [tutorial](http://vimeo.com/76870082) for basic Stypi use.
 #### Use case:
 * This site makes it easy to share code.  It's a quick way to send off a link for review or feedback.  The recipient can review and edit as needed and provide feedback inline.
 
+---
+
 ### GitHub Gist
 
 [GitHub Gists](https://gist.github.com), much like Hastebin, is a great way to quickly save and share code snippets, full documents, or multiple files.  They are also able to be forked and cloned, just like a regular git repository.
 
 #### Use case:
 * This site makes it easy to share anything ranging from a single snippet to multiple files.  It offers a quick way to disseminate information and do so in a private way.  Unlike Hastebin, people aren't able to make inline comments, so Gists are a little less handy in that regard.  Overall, still a handy resource.
+
+---
 
 ### SizeUp
 
