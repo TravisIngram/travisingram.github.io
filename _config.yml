@@ -1,5 +1,7 @@
 # Dependencies
 markdown:         redcarpet
+redcarpet:
+  extensions: ["strikethrough"]
 pygments:         true
 
 # Permalinks
@@ -9,7 +11,7 @@ permalink:        pretty
 title:            Travis Ingram
 tagline:          'Beginner => Competent => Proficient'
 url:              https://github.com/TravisIngram/travisingram.github.io
-paginate:         5
+paginate:         3
 baseurl:          /
 author:
   name:           'Travis Ingram'
