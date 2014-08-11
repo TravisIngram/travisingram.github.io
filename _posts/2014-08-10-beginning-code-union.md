@@ -6,7 +6,7 @@ layout: post
 ### Preface
 I've been learning about different aspects of software development, learning how to code, for a couple of years now.  It's been challenging to say the least.  This is the first in a series of posts that will detail and document my experiences.  Some, like the one below, were written a while ago and not necessarily meant for public consumption.  But I've come to feel that it's important to acknowledge and share challenging experiences.  So I'll be doing just that.
 
-Most of these posts were written over the past couple months, since the beginning of June, 2014, since I started participating in the workshops offered by Code Union.
+Most of these posts were written over the past couple months, since the beginning of June, 2014, since I started participating in the workshops offered by CodeUnion.
 
 ### 20140602 - CodeUnion, Day 01
 [CodeUnion](http://codeunion.io) is an online developer bootcamp founded by [Jesse Farmer](https://twitter.com/jfarmer) and [John Davison](http://www.johncdavison.com). They offer a few different workshops that cover the various skill sets needed to work as a software developer.  Each of the three main courses last eight weeks and are conducted remotely, via Google Hangouts.
