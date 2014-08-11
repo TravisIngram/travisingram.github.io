@@ -16,11 +16,11 @@ Their goal is to provide a learning environment for people who have an interest 
 ### Beginnings
 I stumbled upon CodeUnion while browsing [Quora](https://www.quora.com/Are-programming-boot-camps-a-better-way-to-learn-programming-instead-of-self-study).
 
-I sent off an email asking for more information.  They responded and we set up a time to meet.  Our first conversation last almost two hours.  It was pretty intense, at least from my perspective.  I'd not talked to anyone else about development related topics for, well, ever.  At least not to that degree or depth.
+I sent off an email asking for more information.  They responded and we set up a time to meet.  Our first conversation lasted almost two hours.  It was pretty intense, at least from my perspective.  I'd not talked to anyone else about development related topics for, well, ever.  At least not to that degree or depth.
 
 It was great.
 
-After our conversation they sent me some example exercises to give me a feel for the type of material that they would be covering.  A few days later they got in touch and offered me a spot in their first workshop.
+After our conversation they sent off some example exercises to give me a feel for the type of material that they would be covering.  A few days later they got in touch and offered me a spot in their first workshop.
 
 It wasn't an easy decision.  I had some concerns, most of which centered on my own abilities, on my capability to learn the material. I gave it some thought, though, and ultimately decided to accept.
 
