@@ -9,7 +9,7 @@ I've been learning about different aspects of software development, learning how
 Most of these posts were written over the past couple months, since the beginning of June, 2014, since I started participating in the workshops offered by Code Union.
 
 ### 20140602 - CodeUnion, Day 01
-[Code Union](http://codeunion.io) is an online developer bootcamp founded by [Jesse Farmer](https://twitter.com/jfarmer) and [John Davison](http://www.johncdavison.com). They offer a few different workshops that cover the various skill sets needed to work as a software developer.  Each of the three main courses last eight weeks and are conducted remotely, via Google Hangouts.
+[CodeUnion](http://codeunion.io) is an online developer bootcamp founded by [Jesse Farmer](https://twitter.com/jfarmer) and [John Davison](http://www.johncdavison.com). They offer a few different workshops that cover the various skill sets needed to work as a software developer.  Each of the three main courses last eight weeks and are conducted remotely, via Google Hangouts.
 
 Their goal is to provide a learning environment for people who have an interest in development but are unable to uproot their lives and move across the country to pursue it. The first cohort began yesterday, June 2nd. I'm one of the six students selected for the inaugural class. This is my experience.
 
