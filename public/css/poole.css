@@ -330,6 +330,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
+  border-bottom: 1px solid #CCC;
   margin-bottom: 4em;
 }
 
