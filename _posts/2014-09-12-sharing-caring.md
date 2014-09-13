@@ -1,6 +1,7 @@
 ---
 title: Writing and Sharing
 layout: post
+summary: A brief discussion about the challenges of writing and posting in public.
 tags: Meta Goals
 ---
 
