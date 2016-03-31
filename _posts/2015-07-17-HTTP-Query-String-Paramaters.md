@@ -15,7 +15,7 @@ In addition, I feel that it's important to distinguish between what parameters a
 
 So, while some examples have been included that are specific to _Rails_ and _Sinatra_, in general, this post will strive to discuss parameters outside of any one specific implementation.
 
-===
+---
 
 ### What are Parameters?  What purpose do they serve?
 
@@ -25,7 +25,7 @@ As such, each developer decides, based on the type of service or application the
 
 The term _parameter_ refers to the pieces of associated data, `name | value` pairs, that originate on the _client_, and are passed to the _server_. Once generated, there are two ways that parameters are transmitted from _client_ to _server_, either within the [_query string_](http://en.wikipedia.org/wiki/Query_string) of a [`URI` / `URL`](http://en.wikipedia.org/wiki/Uniform_resource_identifier) through an `HTTP` `GET` request, or as part of the body of an `HTTP` [`POST` request](http://en.wikipedia.org/wiki/HTTP_POST).
 
-===
+---
 
 ### How are they generated?
 
@@ -55,7 +55,7 @@ Each of these associated pieces of data, each `name | value` pair, is a _paramet
 
 How they are sent and what they look like once received by the _server_, is, in part, covered below.
 
-===
+---
 
 ### How are they sent? `HTTP` and the _Request_ / _Response_ Cycle
 
@@ -81,14 +81,14 @@ Often it's a static file or web page.  That's probably the most common interpret
 
 To begin with, `URL`s all share the same basic structure, which is determined by the type of resource they point to.
 
-```
+```html
 <scheme name> : <host or domain> / <hierarchical part> [ ? <query> ] [ # <fragment> ]
 ```
 
 * The _scheme name_ is often a protocol, the communication method, such as, `http`, `ftp`, `ssh`, `mailto`, or `irc`.
 * The _domain name_ or host is the address of the server where the individual resources reside.  Such as google.com, twitter.com, or en.wikipedia.org
 * The _hierarchal part_ is appended to the host and resembles the file path often found in a Unix based OS. __/file/lives/here__
-* The _query string_ follows the hierarchal part and always begins with a **"?"**.  The data following it is grouped by an **"="** and the `name` | `value` pairs are separated by an **"&"**.
+* The _query string_ follows the hierarchal part and always begins with a **"?"**.  The data following it is grouped by an **"="** and the `name | value` pairs are separated by an **"&"**.
 * The _fragment_ follows the hierarchal part and always begins with a **"#"**.  It points to a specific location, often a section heading within a static file.
 
 A `URL` formatted in conjunction with `HTTP` will include the first three components above and, possibly, a _query string_ or _fragment_.  Here's an example of a web address that includes a _query string_.
@@ -136,7 +136,7 @@ So the resulting `Hash` from the `URL` above might look like this.
 
 While outside the scope of this post, it's important to recognize and be aware that since the primary message associated with a `GET` request is the `URL` itself, data sent in this manner is visible during the transport process.  As such, it's generally best to avoid sending anything that might be considered sensitive via a `GET` request and instead use a `POST` request.
 
-===
+---
 
 ### Passing Parameters - the `HTTP` `POST` Method
 
@@ -168,7 +168,7 @@ In this example, there are actually two hashes.  The first hash has a `key` of "
 
 As this example demonstrates, the data passed from _client_ to _server_ can become quite complex in nature.  One of the benefits of using the `HTTP` `POST` method is that the data being transmitted is carried within the body of the request.  This gives developers the freedom, or option at least, to obfuscate or hide what's being passed between _client_ and _server_.
 
-===
+---
 
 ### How are they used?  A Basic Example.
 
@@ -180,7 +180,7 @@ Once it arrives, all the data is parsed and formatted as a series of `key | valu
 
 Or at least for your 4 followers and friends.
 
-===
+---
 
 ### Summary
 
