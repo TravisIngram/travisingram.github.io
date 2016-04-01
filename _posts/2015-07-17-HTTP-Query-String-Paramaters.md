@@ -11,9 +11,9 @@ tags: HTTP, REST, BLACK BOX
 
 While this discussion will focus primarily on defining what parameters are, how they're generated and passed from the _client_ to the _server_, I'll also attempt to cover, in brief, some of the related or ancillary topics as well.  I encourage those that are interested in learning more about the underlying processes to visit the links embedded throughout this post.  Most of them point to either [Wikipedia](http://en.wikipedia.org/wiki/Internet_protocol_suite) or to documentation provided by the various standards bodies like the [Web Consortium](http://www.w3.org).  They likely give a more nuanced introduction to these topics and also have plenty of additional information and resources available to peruse.
 
-In addition, I feel that it's important to distinguish between what parameters are, _independently_ of how they are used once received by the _server_.  While most [web frameworks](http://en.wikipedia.org/wiki/Web_framework) or [domain-specific languages](http://en.wikipedia.org/wiki/Domain-specific_language), `DSL`s, will [parse](http://en.wikipedia.org/wiki/Parsing) the incoming string of characters in conceptually similar ways, there will undoubted be some discrepancies in how the resulting data is formatted and made available for use by the developer.
+In addition, I feel that it's important to distinguish between what parameters are, _independently_ of how they are used once received by the _server_.  While most [web frameworks](http://en.wikipedia.org/wiki/Web_framework) or [domain-specific languages](http://en.wikipedia.org/wiki/Domain-specific_language), `DSL`s, will [parse](http://en.wikipedia.org/wiki/Parsing) the incoming string of characters in conceptually similar ways, there will undoubtedly be some discrepancies in how the resulting data is formatted and made available for use by the developer.
 
-So, while some examples have been included that are specific to _Rails_ and _Sinatra_, in general, this post will strive to discuss parameters outside of any one specific implementation.
+So, while some examples have been included that are specific to _[Rails](https://en.wikipedia.org/wiki/Ruby_on_Rails)_ and _[Sinatra](http://www.sinatrarb.com/intro.html)_, in general, this post will strive to discuss parameters outside of any one specific implementation.
 
 ---
 
@@ -122,7 +122,7 @@ http://superwall.com/register?name=travis&city=San+Francisco&state=California
 
 The parameters being sent in this case are the three `name | value` pairs following the question mark, separated by an ampersand.
 
-Itâ€™s worth mentioning again that _how_ this string of information is [parsed](http://en.wikipedia.org/wiki/Parsing) and formatted once received by the _server_, will differ based on the framework that was used when building the web application.
+It's also worth mentioning again that _how_ this string of information is [parsed](http://en.wikipedia.org/wiki/Parsing) and formatted once received by the _server_, will differ based on the framework that was used when building the web application.
 
 In a Ruby based web framework like _Rails_ or a _DSL_ like _Sinatra_, these `name | value` pairs are the same as `key | value` pairs, a `Hash`, and are often referred to as the `params hash`.
 
