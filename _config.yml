@@ -1,8 +1,11 @@
 # Dependencies
-markdown:         kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 # redcarpet:
 #   extensions: ["strikethrough"]
-pygments:         true
+# pygments:         true
+highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
@@ -12,6 +15,7 @@ title:            Travis Ingram
 tagline:          'Beginner => Competent => Proficient'
 url:              https://github.com/TravisIngram/travisingram.github.io
 paginate:         3
+paginate_path:    'page:num'
 baseurl:          /
 author:
   name:           'Travis Ingram'
@@ -25,6 +29,8 @@ github:
 
 # Navigation
 pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+  About:          '/about'
+  Archive:        '/archive'
+  Feed:           '/atom.xml'
+
+gems:             [jekyll-paginate]
