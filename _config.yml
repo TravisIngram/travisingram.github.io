@@ -33,4 +33,4 @@ pages_list:
   Archive:        '/archive'
   Feed:           '/atom.xml'
 
-gems:             [jekyll-paginate]
+plugins:             [jekyll-paginate]
